@@ -1,0 +1,9 @@
+const audio1 = new Audio(encodeURI(Assets/C Single Note.mp3));
+const audio2 = new Audio(encodeURI(Assets/C# Db Single Note.mp3));
+const audio3 = new Audio(encodeURI(Assets/D Single Note.mp3));
+const audio4 = new Audio(encodeURI(Assets/D# Eb Single Note.mp3));
+const audio5 = new Audio(encodeURI(Assets/E Single Note.mp3));
+const audio6 = new Audio(encodeURI(Assets/F Single Note.mp3));
+const audio7 = new Audio(encodeURI(Assets/F# Gb Single Note.mp3));
+const audio8 = new Audio(encodeURI(Assets/G Single Note.mp3));
+const audio9 = new Audio(encodeURI(Assets/G# Ab Single Note.mp3));
