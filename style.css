@@ -11,7 +11,7 @@ body{
     height: 12dvh;
     display: flex;
     justify-content: center;
-    gap:300px;
+    gap:200px;
     padding: 36px;
     font-size: 36px;
     align-items: center;
@@ -21,7 +21,7 @@ body{
 #lives{
     display: flex;
     width: fit-content;
-    justify-content: center;
+    justify-content: flex-end;
 }
 #lives img{
     width: 64px;
@@ -35,7 +35,12 @@ body{
     justify-content: center;
 }
 #game button{
-    border: 5px solid;
+    border: 6px solid;
     border-radius: 25px;
     background-color: royalblue;
+    cursor: pointer;
+    box-shadow: 3px 5px mediumblue;
+}
+#game button:active{
+    background-color:lightblue;
 }
