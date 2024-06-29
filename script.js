@@ -30,7 +30,6 @@ buttons.forEach(el => el.addEventListener('click', event => {
     sounds[index].play();
     if (clickable) {
         pattern.push(index);
-        console.log(pattern, simmon);
         checkPattern(pattern.length - 1);
     }
     setTimeout(() => {
