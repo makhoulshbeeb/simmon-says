@@ -73,6 +73,7 @@ body {
     color: whitesmoke;
     vertical-align: middle;
     width:fit-content;
+    cursor: pointer;
 }
 #click-cover{
     z-index: 1;
